@@ -21,6 +21,19 @@ Fixed by downgrading to `@auth/core^=0.35.0`, see https://github.com/nextauthjs/
 
 Setting `AUTH_TRUST_HOST=true` does not work, fixed by adding `trustHost: true` to `src/auth.ts`, see https://github.com/nextauthjs/next-auth/discussions/6071.
 
+### Sentry Cloudflare adapter is broken
+
+1. Build fails with
+    ```
+    ✘ [ERROR] Could not resolve "$app/stores"
+
+        node_modules/@sentry/sveltekit/build/esm/client/browserTracingIntegration.js:1:33:
+          1 │ import { page, navigating } from '$app/stores';
+            ╵                                  ~~~~~~~~~~~~~
+    ```
+
+2. https://github.com/getsentry/sentry-javascript/issues/8291
+
 ## Creating a project
 
 If you're seeing this, you've probably already done this step. Congrats!
