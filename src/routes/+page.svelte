@@ -11,6 +11,11 @@
 
 	<section class="my-6">
 		{#if $page.data.session}
+			{#if $page.data.session.user?.image}
+				<img src={$page.data.session.user.image} alt="User avatar" class="h-32 w-32 rounded-full" />
+			{:else}
+				<div class="h-32 w-32 rounded-full bg-gray-200" />
+			{/if}
 			<pre><code>{JSON.stringify($page.data.session, null, 2)}</code></pre>
 			<button on:click={() => signOut()}>Sign out</button>
 		{:else}
