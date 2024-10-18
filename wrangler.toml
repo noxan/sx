@@ -77,8 +77,7 @@ pages_build_output_dir = ".svelte-kit/cloudflare"
 
 ######## PRODUCTION environment config ########
 
-[env.production.vars]
-AUTH_TRUST_HOST = true
+# [env.production.vars]
 # API_KEY = "abc123"
 
 # [[env.production.kv_namespaces]]
