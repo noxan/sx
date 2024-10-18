@@ -24,3 +24,6 @@ vite.config.ts.timestamp-*
 .wrangler
 .dev.vars
 *.db
+
+# Sentry Config File
+.env.sentry-build-plugin

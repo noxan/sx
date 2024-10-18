@@ -47,6 +47,7 @@
 		"@auth/core": "^0.35.3",
 		"@auth/sveltekit": "^1.7.0",
 		"@libsql/client": "^0.6.1",
+		"@sentry/sveltekit": "^8.34.0",
 		"drizzle-orm": "^0.31.2"
 	}
 }
