@@ -12,7 +12,10 @@
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
 		"deploy": "bun run build && wrangler pages deploy",
-		"cf-typegen": "wrangler types && mv worker-configuration.d.ts src/"
+		"cf-typegen": "wrangler types && mv worker-configuration.d.ts src/",
+		"db:push": "drizzle-kit push",
+		"db:migrate": "drizzle-kit migrate",
+		"db:studio": "drizzle-kit studio"
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "^4.20241011.0",
@@ -22,6 +25,7 @@
 		"@sveltejs/vite-plugin-svelte": "^3.1.2",
 		"@types/eslint": "^9.6.1",
 		"autoprefixer": "^10.4.20",
+		"drizzle-kit": "^0.22.0",
 		"eslint": "^9.12.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.45.1",
@@ -41,6 +45,8 @@
 	"type": "module",
 	"dependencies": {
 		"@auth/core": "^0.35.3",
-		"@auth/sveltekit": "^1.7.0"
+		"@auth/sveltekit": "^1.7.0",
+		"@libsql/client": "^0.6.1",
+		"drizzle-orm": "^0.31.2"
 	}
 }
