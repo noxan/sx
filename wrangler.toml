@@ -29,6 +29,7 @@ BUN_VERSION = "1.1.30"
 binding = "DB"
 database_name = "sx"
 database_id = "3192a7a3-66b6-4f7b-ada6-966823d6ef6c"
+migrations_dir = "drizzle"
 
 # Bind a Durable Object. Durable objects are a scale-to-zero compute primitive based on the actor model.
 # Durable Objects can live for as long as needed. Use these when you need a long-running "server", such as in realtime apps.
