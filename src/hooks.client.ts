@@ -2,6 +2,7 @@ import * as Sentry from '@sentry/sveltekit';
 import { handleErrorWithSentry } from '@sentry/sveltekit';
 
 Sentry.init({
+	enabled: process.env.NODE_ENV !== 'development',
 	dsn: 'https://2673cb3aed1f9088a1516478698e54fb@o4508105785868288.ingest.de.sentry.io/4508144247177296'
 });
 
