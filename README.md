@@ -1,6 +1,11 @@
 # create-svelte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Everything you need to build, powered by
+1. [`SvelteKit`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+2. Cloudflare Pages + D1 Database
+3. DrizzleKit
+4. Auth.js
+5. [`Sentry`](https://docs.sentry.io/platforms/javascript/guides/sveltekit/)
 
 ## Setup
 
