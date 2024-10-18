@@ -2,4 +2,6 @@
 	import '../app.css';
 </script>
 
-<slot></slot>
+<main class="container mx-auto py-12">
+	<slot></slot>
+</main>
