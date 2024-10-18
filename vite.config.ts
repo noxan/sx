@@ -7,7 +7,7 @@ export default defineConfig({
 		sentrySvelteKit({
 			sourceMapsUploadOptions: {
 				org: 'zukunftshaus',
-				project: 'dx'
+				project: 'sx'
 			}
 		}),
 		sveltekit()
