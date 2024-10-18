@@ -10,8 +10,7 @@ Everything you need to build a Svelte project, powered by [`create-svelte`](http
 
 ### Illegal invocation with @authjs/core>=0.36
 
-https://developers.cloudflare.com/workers/observability/errors/#illegal-invocation-errors
-
+Fixed by downgrading to `@auth/core^=0.35.0`, see https://github.com/nextauthjs/next-auth/issues/11999 and [original error message on cloudflare](https://developers.cloudflare.com/workers/observability/errors/#illegal-invocation-errors).
 
 ### AUTH_TRUST_HOST does not work with Cloudflare
 
