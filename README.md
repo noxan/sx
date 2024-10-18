@@ -6,6 +6,17 @@ Everything you need to build a Svelte project, powered by [`create-svelte`](http
 
 1. Create a secret auth token with `bunx auth secret`
 
+## Issues and pitfalls
+
+### Illegal invocation with @authjs/core>=0.36
+
+https://developers.cloudflare.com/workers/observability/errors/#illegal-invocation-errors
+
+
+### AUTH_TRUST_HOST does not work with Cloudflare
+
+Setting `AUTH_TRUST_HOST=true` does not work, fixed by adding `trustHost: true` to `src/auth.ts`, see https://github.com/nextauthjs/next-auth/discussions/6071.
+
 ## Creating a project
 
 If you're seeing this, you've probably already done this step. Congrats!
