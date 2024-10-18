@@ -2,6 +2,10 @@
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 
+## Setup
+
+1. Create a secret auth token with `bunx auth secret`
+
 ## Creating a project
 
 If you're seeing this, you've probably already done this step. Congrats!
