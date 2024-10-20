@@ -17,6 +17,7 @@ pages_build_output_dir = ".svelte-kit/cloudflare"
 # - https://developers.cloudflare.com/pages/functions/bindings/#secrets
 [vars]
 BUN_VERSION = "1.1.30"
+NODE_ENV = "production"
 
 # Bind the Workers AI model catalog. Run machine learning models, powered by serverless GPUs, on Cloudflare’s global network
 # Docs: https://developers.cloudflare.com/pages/functions/bindings/#workers-ai
@@ -78,8 +79,7 @@ migrations_dir = "drizzle"
 
 ######## PRODUCTION environment config ########
 
-[env.production.vars]
-NODE_ENV = "production"
+# [env.production.vars]
 # API_KEY = "abc123"
 
 # [[env.production.kv_namespaces]]
