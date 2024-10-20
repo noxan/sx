@@ -1,6 +1,5 @@
 import { NODE_ENV } from '$env/static/private';
 import { init } from '@jill64/sentry-sveltekit-cloudflare/server';
-import { sequence } from '@sveltejs/kit/hooks';
 import { handle as authHandle } from './auth';
 
 const { onHandle, onError } = init(
@@ -10,4 +9,4 @@ const { onHandle, onError } = init(
 
 export const handleError = onError();
 
-export const handle = sequence(onHandle(), authHandle);
+export const handle = onHandle(authHandle);
