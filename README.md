@@ -1,4 +1,4 @@
-# create-svelte
+# sx - sveltekit + x = everything
 
 Everything you need to build, powered by
 
