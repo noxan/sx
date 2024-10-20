@@ -31,17 +31,8 @@ Setting `AUTH_TRUST_HOST=true` does not work, fixed by adding `trustHost: true` 
 
 ### Sentry Cloudflare adapter is broken
 
-1. Build fails with
-
-   ```
-   ✘ [ERROR] Could not resolve "$app/stores"
-
-       node_modules/@sentry/sveltekit/build/esm/client/browserTracingIntegration.js:1:33:
-         1 │ import { page, navigating } from '$app/stores';
-           ╵                                  ~~~~~~~~~~~~~
-   ```
-
-2. https://github.com/getsentry/sentry-javascript/issues/8291
+Use [`@jill64/sentry-sveltekit-cloudflare`](https://github.com/jill64/sentry-sveltekit-cloudflare) instead of `@sentry/sveltekit`.
+Because build fails with `Could not resolve "$app/stores"` and more issues, see https://github.com/getsentry/sentry-javascript/issues/8291.
 
 ## Reading material
 
