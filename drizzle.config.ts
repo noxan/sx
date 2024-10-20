@@ -1,7 +1,8 @@
 import { defineConfig } from 'drizzle-kit';
 import type { Config } from 'drizzle-kit';
 
-const { LOCAL_DATABASE_URL } = process.env;
+const { LOCAL_DATABASE_URL, CLOUDFLARE_ACCOUNT_ID, CLOUDFLARE_DATABASE_ID, CLOUDFLARE_D1_TOKEN } =
+	process.env;
 
 const config = {
 	schema: './src/lib/server/db/schema.ts',
@@ -20,9 +21,9 @@ const localConfig = {
 const remoteConfig = {
 	driver: 'd1-http',
 	dbCredentials: {
-		// accountId: process.env.CLOUDFLARE_ACCOUNT_ID!,
-		// databaseId: process.env.CLOUDFLARE_DATABASE_ID!,
-		// token: process.env.CLOUDFLARE_D1_TOKEN!
+		accountId: CLOUDFLARE_ACCOUNT_ID,
+		databaseId: CLOUDFLARE_DATABASE_ID,
+		token: CLOUDFLARE_D1_TOKEN,
 	},
 };
 
