@@ -1,6 +1,7 @@
 # create-svelte
 
 Everything you need to build, powered by
+
 1. [`SvelteKit`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 2. Cloudflare Pages + D1 Database
 3. DrizzleKit
@@ -24,13 +25,14 @@ Setting `AUTH_TRUST_HOST=true` does not work, fixed by adding `trustHost: true` 
 ### Sentry Cloudflare adapter is broken
 
 1. Build fails with
-    ```
-    ✘ [ERROR] Could not resolve "$app/stores"
 
-        node_modules/@sentry/sveltekit/build/esm/client/browserTracingIntegration.js:1:33:
-          1 │ import { page, navigating } from '$app/stores';
-            ╵                                  ~~~~~~~~~~~~~
-    ```
+   ```
+   ✘ [ERROR] Could not resolve "$app/stores"
+
+       node_modules/@sentry/sveltekit/build/esm/client/browserTracingIntegration.js:1:33:
+         1 │ import { page, navigating } from '$app/stores';
+           ╵                                  ~~~~~~~~~~~~~
+   ```
 
 2. https://github.com/getsentry/sentry-javascript/issues/8291
 
