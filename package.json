@@ -15,6 +15,7 @@
 		"cf-typegen": "wrangler types && mv worker-configuration.d.ts src/",
 		"db:push": "drizzle-kit push",
 		"db:migrate": "drizzle-kit migrate",
+		"db:local:studio": "LOCAL_DATABASE_URL=$(find .wrangler/state/v3/d1/miniflare-D1DatabaseObject -type f -name '*.sqlite' -print -quit) drizzle-kit studio",
 		"db:studio": "drizzle-kit studio"
 	},
 	"devDependencies": {

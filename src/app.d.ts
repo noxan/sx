@@ -3,7 +3,9 @@
 declare global {
 	namespace App {
 		interface Platform {
-			env: Env;
+			env: Env & {
+				DB: D1Database;
+			};
 			cf: CfProperties;
 			ctx: ExecutionContext;
 		}
