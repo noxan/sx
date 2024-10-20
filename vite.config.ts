@@ -10,6 +10,7 @@ export default defineConfig({
 		sentryVitePlugin({
 			org: 'zukunftshaus',
 			project: 'sx',
+			telemetry: false,
 		}),
 		sveltekit(),
 	],
