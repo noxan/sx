@@ -1,10 +1,9 @@
-import { env } from '$env/dynamic/private';
-import { createClient } from '@libsql/client';
-import { drizzle } from 'drizzle-orm/libsql';
+import { drizzle } from 'drizzle-orm/d1';
 
-if (!env.DATABASE_URL) {
-	throw new Error('DATABASE_URL is not set');
-}
+export const db = (platform: Readonly<App.Platform> | undefined) => {
+	if (!platform?.env.DB) {
+		throw new Error('DB is not configured');
+	}
 
-const client = createClient({ url: env.DATABASE_URL });
-export const db = drizzle(client);
+	return drizzle(platform.env.DB);
+};
