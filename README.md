@@ -11,6 +11,7 @@ Everything you need to build, powered by
 ## Todos
 
 - [ ] Configure preview environments
+- [ ] Make sentry DSN private
 - [ ] Fix sentry reporting in production (set NODE_ENV=production)
 - [ ] Add local/remote variants of database commands
 - [ ] Write tutorial on automatic deployments
