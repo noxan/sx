@@ -7,6 +7,6 @@ export const load: PageServerLoad = async ({ platform }) => {
 
 	return {
 		users,
-		test: 'bla'
+		test: 'bla',
 	};
 };

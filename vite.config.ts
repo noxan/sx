@@ -4,19 +4,19 @@ import { defineConfig } from 'vitest/config';
 
 export default defineConfig({
 	build: {
-		sourcemap: true
+		sourcemap: true,
 	},
 	plugins: [
 		sentryVitePlugin({
 			org: 'zukunftshaus',
-			project: 'sx'
+			project: 'sx',
 		}),
-		sveltekit()
+		sveltekit(),
 	],
 	ssr: {
-		noExternal: ['@jill64/sentry-sveltekit-cloudflare']
+		noExternal: ['@jill64/sentry-sveltekit-cloudflare'],
 	},
 	test: {
-		include: ['src/**/*.{test,spec}.{js,ts}']
-	}
+		include: ['src/**/*.{test,spec}.{js,ts}'],
+	},
 });

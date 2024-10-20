@@ -8,13 +8,13 @@ const config = {
 	dialect: 'sqlite',
 
 	verbose: true,
-	strict: true
+	strict: true,
 } satisfies Config;
 
 const localConfig = {
 	dbCredentials: {
-		url: LOCAL_DATABASE_URL
-	}
+		url: LOCAL_DATABASE_URL,
+	},
 };
 
 const remoteConfig = {
@@ -23,10 +23,10 @@ const remoteConfig = {
 		// accountId: process.env.CLOUDFLARE_ACCOUNT_ID!,
 		// databaseId: process.env.CLOUDFLARE_DATABASE_ID!,
 		// token: process.env.CLOUDFLARE_D1_TOKEN!
-	}
+	},
 };
 
 export default defineConfig({
 	...config,
-	...(LOCAL_DATABASE_URL ? localConfig : remoteConfig)
+	...(LOCAL_DATABASE_URL ? localConfig : remoteConfig),
 });
