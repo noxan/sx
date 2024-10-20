@@ -2,10 +2,10 @@
 
 Everything you need to build, powered by
 
-1. [`SvelteKit`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
-2. Cloudflare Pages + D1 Database
-3. DrizzleKit
-4. Auth.js
+1. [`SvelteKit`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte)
+2. [`Cloudflare Pages`](https://developers.cloudflare.com/pages/framework-guides/deploy-a-svelte-site/) + [`D1 Database`](https://developers.cloudflare.com/d1/)
+3. [`Drizzle`](https://orm.drizzle.team/) + [`DrizzleKit`](https://github.com/drizzle-team/drizzle-orm/tree/main/packages/drizzle-kit)
+4. [`Auth.js`](https://authjs.dev/getting-started/installation?framework=SvelteKit)
 5. [`Sentry`](https://docs.sentry.io/platforms/javascript/guides/sveltekit/)
 
 ## Todos
