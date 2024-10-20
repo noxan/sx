@@ -19,15 +19,15 @@
 		"db:studio": "drizzle-kit studio"
 	},
 	"devDependencies": {
-		"@cloudflare/workers-types": "^4.20241011.0",
+		"@cloudflare/workers-types": "^4.20241018.0",
 		"@sveltejs/adapter-auto": "^3.2.5",
 		"@sveltejs/adapter-cloudflare": "^4.7.3",
-		"@sveltejs/kit": "^2.7.1",
+		"@sveltejs/kit": "^2.7.2",
 		"@sveltejs/vite-plugin-svelte": "^3.1.2",
 		"@types/eslint": "^9.6.1",
 		"autoprefixer": "^10.4.20",
-		"drizzle-kit": "^0.22.0",
-		"eslint": "^9.12.0",
+		"drizzle-kit": "^0.22.8",
+		"eslint": "^9.13.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.45.1",
 		"globals": "^15.11.0",
@@ -46,10 +46,10 @@
 	"type": "module",
 	"dependencies": {
 		"@auth/core": "^0.35.3",
-		"@auth/sveltekit": "^1.7.0",
+		"@auth/sveltekit": "^1.7.2",
 		"@jill64/sentry-sveltekit-cloudflare": "^1.7.16",
-		"@libsql/client": "^0.6.1",
+		"@libsql/client": "^0.6.2",
 		"@sentry/vite-plugin": "^2.22.6",
-		"drizzle-orm": "^0.31.2"
+		"drizzle-orm": "^0.31.4"
 	}
 }
