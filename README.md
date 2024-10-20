@@ -8,6 +8,13 @@ Everything you need to build, powered by
 4. Auth.js
 5. [`Sentry`](https://docs.sentry.io/platforms/javascript/guides/sveltekit/)
 
+## Todos
+
+- [ ] Configure preview environments
+- [ ] Add local/remote variants of database commands
+- [ ] Write tutorial on automatic deployments
+- [ ] Write tutorial on initialize remote database
+
 ## Setup
 
 1. Create a secret auth token with `bunx auth secret`
