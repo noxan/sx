@@ -11,9 +11,12 @@
 </section>
 
 <section class="my-6">
-	<a href="/database" class="hover:underline">Database</a>
-	<a href="/sentry-example" class="hover:underline">Sentry</a>
-	<a href="/status" class="hover:underline">Status (API)</a>
+	<h2 class="pb-2 text-lg">Features</h2>
+	<ul class="list-disc pl-6">
+		<li><a href="/database" class="hover:underline">Database</a></li>
+		<li><a href="/sentry-example" class="hover:underline">Sentry</a></li>
+		<li><a href="/status" class="hover:underline">Status (API)</a></li>
+	</ul>
 </section>
 
 <section class="my-6">
