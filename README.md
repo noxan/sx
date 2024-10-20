@@ -46,13 +46,15 @@ Setting `AUTH_TRUST_HOST=true` does not work, fixed by adding `trustHost: true` 
 ## Reading material
 
 1. Setup Cloudflare D1 with DrizzleKit
-   1. https://www.drizzlekit.com/docs/guides/cloudflare-pages
-   2. https://orm.drizzle.team/docs/guides/d1-http-with-drizzle-kit
-   3. https://developers.cloudflare.com/d1/examples/d1-and-sveltekit/
-   4. https://developers.cloudflare.com/pages/framework-guides/deploy-a-svelte-site/
-   5. https://developers.cloudflare.com/d1/build-with-d1/local-development/#related-resources
-   6. https://kit.svelte.dev/docs/adapter-cloudflare
-   7. https://orm.drizzle.team/docs/get-started/d1-new
+   1. https://github.com/drizzle-team/drizzle-orm/discussions/1545
+   2. https://kevinkipp.com/blog/going-full-stack-on-astro-with-cloudflare-d1-and-drizzle/
+   3. https://www.drizzlekit.com/docs/guides/cloudflare-pages
+   4. https://orm.drizzle.team/docs/guides/d1-http-with-drizzle-kit
+   5. https://developers.cloudflare.com/d1/examples/d1-and-sveltekit/
+   6. https://developers.cloudflare.com/pages/framework-guides/deploy-a-svelte-site/
+   7. https://developers.cloudflare.com/d1/build-with-d1/local-development/#related-resources
+   8. https://kit.svelte.dev/docs/adapter-cloudflare
+   9. https://orm.drizzle.team/docs/get-started/d1-new
 
 ## Creating a project
 
