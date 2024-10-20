@@ -11,6 +11,12 @@
 </section>
 
 <section class="my-6">
+	<a href="/database" class="hover:underline">Database</a>
+	<a href="/sentry-example" class="hover:underline">Sentry</a>
+	<a href="/status" class="hover:underline">Status (API)</a>
+</section>
+
+<section class="my-6">
 	<h2 class="pb-2 text-lg">Authentication</h2>
 	{#if $page.data.session}
 		{#if $page.data.session.user?.image}
