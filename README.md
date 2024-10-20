@@ -11,6 +11,7 @@ Everything you need to build, powered by
 ## Todos
 
 - [ ] Configure preview environments
+- [ ] Fix sentry reporting in production (set NODE_ENV=production)
 - [ ] Add local/remote variants of database commands
 - [ ] Write tutorial on automatic deployments
 - [ ] Write tutorial on initialize remote database
