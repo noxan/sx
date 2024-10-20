@@ -11,6 +11,7 @@
 </section>
 
 <section class="my-6">
+	<h2 class="pb-2 text-lg">Authentication</h2>
 	{#if $page.data.session}
 		{#if $page.data.session.user?.image}
 			<img src={$page.data.session.user.image} alt="User avatar" class="h-32 w-32 rounded-full" />
