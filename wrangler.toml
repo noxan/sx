@@ -78,7 +78,8 @@ migrations_dir = "drizzle"
 
 ######## PRODUCTION environment config ########
 
-# [env.production.vars]
+[env.production.vars]
+NODE_ENV = "production"
 # API_KEY = "abc123"
 
 # [[env.production.kv_namespaces]]
