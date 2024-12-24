@@ -1,9 +1,11 @@
 <script lang="ts">
 	import { signIn, signOut } from '@auth/sveltekit/client';
 	import { page } from '$app/state';
+	import logo from '$lib/assets/logo-192x192.png';
 </script>
 
 <section class="my-6">
+	<img src={logo} alt="SvelteKit Logo" class="mb-4 h-32 w-32" />
 	<h1 class="pb-2 text-xl">Welcome to SvelteKit</h1>
 	<p>
 		Visit <a href="https://kit.svelte.dev" class="hover:underline">kit.svelte.dev</a> to read the documentation
