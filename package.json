@@ -19,7 +19,7 @@
 		"db:studio": "drizzle-kit studio"
 	},
 	"devDependencies": {
-		"@cloudflare/workers-types": "^4.20241218.0",
+		"@cloudflare/workers-types": "^4.20241224.0",
 		"@sveltejs/adapter-auto": "^3.3.1",
 		"@sveltejs/adapter-cloudflare": "^4.9.0",
 		"@sveltejs/kit": "^2.15.0",
