@@ -8,7 +8,9 @@
 	<img src={logo} alt="SvelteKit Logo" class="mb-4 h-32 w-32" />
 	<h1 class="pb-2 text-xl">sx - sveltekit + x = everything</h1>
 	<p>
-		Visit <a href="https://kit.svelte.dev" class="hover:underline">kit.svelte.dev</a> to read the documentation
+		Visit <a href="https://github.com/noxan/sx" class="hover:underline">github.com/noxan/sx</a> to
+		learn more and <a href="https://kit.svelte.dev" class="hover:underline">kit.svelte.dev</a> to read
+		the SvelteKit documentation
 	</p>
 </section>
 
