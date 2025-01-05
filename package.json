@@ -19,10 +19,10 @@
 		"db:studio": "drizzle-kit studio"
 	},
 	"devDependencies": {
-		"@cloudflare/workers-types": "^4.20241224.0",
+		"@cloudflare/workers-types": "^4.20241230.0",
 		"@sveltejs/adapter-auto": "^3.3.1",
 		"@sveltejs/adapter-cloudflare": "^4.9.0",
-		"@sveltejs/kit": "^2.15.0",
+		"@sveltejs/kit": "^2.15.1",
 		"@sveltejs/vite-plugin-svelte": "^5.0.3",
 		"@types/eslint": "^9.6.1",
 		"autoprefixer": "^10.4.20",
@@ -34,12 +34,12 @@
 		"prettier": "^3.4.2",
 		"prettier-plugin-svelte": "^3.3.2",
 		"prettier-plugin-tailwindcss": "^0.6.9",
-		"svelte": "^5.16.0",
+		"svelte": "^5.16.1",
 		"svelte-check": "^4.1.1",
 		"tailwindcss": "^3.4.17",
 		"typescript": "^5.7.2",
-		"typescript-eslint": "^8.18.2",
-		"vite": "^6.0.6",
+		"typescript-eslint": "^8.19.0",
+		"vite": "^6.0.7",
 		"vitest": "^2.1.8",
 		"wrangler": "^3.99.0"
 	},
